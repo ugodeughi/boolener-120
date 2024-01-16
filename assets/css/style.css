@@ -1,0 +1,113 @@
+/* reset */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+
+}
+
+h1{
+  font-size: 2rem;
+}
+
+p{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.container{
+  max-width: 1100px;
+  /* istruzione per centrare il container */
+  margin: 0 auto;
+}
+
+.dida{
+  font-size: .8rem;
+  color: #7E8080;
+}
+.dida span{
+  color: #4EA0FF
+}
+
+.caption{
+  font-size: .8rem;
+}
+
+.highlight{
+  background-color: yellow;
+}
+
+/* HEADER */
+header{
+  background-image: url(../img/pattern.png) ;
+  background-color: #4EA0FF;
+  background-size: 30%;
+}
+
+header .logo{
+  padding-top: 50px;
+  padding-left: 20px;
+}
+
+header .logo img{
+  width: 200px;
+}
+
+/* MAIN */
+main{
+  padding:50px;
+}
+
+main ul{
+  margin-left: 15px;
+}
+
+main table{
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+main table th{
+  text-align: left;
+}
+
+main table thead{
+  background-color: #23A9E5;
+  color: white;
+}
+
+main table .text{
+  width: 50%;
+}
+
+main table .odd{
+  background-color: #B1E5F2;
+}
+
+/* FOOTER */
+
+
+footer h4{
+  color: #777777;
+  margin-bottom:20px;
+}
+
+footer .box-image{
+  width: 300px;
+  height: 200px;
+  background-size: cover;
+  margin-bottom: 20px;
+  padding: 20px;
+  color: white;
+}
+
+footer .box-image#monitor{
+  background-image: url('../img/monitor.jpg');
+}
+
+footer .box-image#graph{
+  background-image: url('../img/graph.jpg');
+}
